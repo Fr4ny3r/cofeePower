@@ -2,6 +2,7 @@ import './App.css'
 import { supabase } from './components/supabase';
 import { useState, useEffect } from 'react'
 import Hero from './components/Hero'
+import About from './components/About'
 
 
 
@@ -47,7 +48,7 @@ function App() {
           console.log(datos)
           return (
             <ul>
-              {datos.map((item) => (
+              {datos.map((item : any) => (
                 // Reemplaza 'nombre_columna' con una columna real de tu tabla
                 <li key={item.id}>{item.titulo}</li> 
               ))}
@@ -60,8 +61,8 @@ function App() {
   return (
     <>
     <Hero />
+    <About />
     <MiComponenteDeDatos/>
-    <span className="my-10 block bg-red-500">asd</span>
     </>
   )
 }

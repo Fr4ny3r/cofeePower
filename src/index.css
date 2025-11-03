@@ -7,7 +7,7 @@
 
   color-scheme: light dark;
   color: #fff;
-  background-color: #111;
+  background-color: #140d0b;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -15,7 +15,7 @@
   -moz-osx-font-smoothing: grayscale;
 
 
-  --color-bg: #111;
+  --color-bg: #140d0b;
   --color-titles: #fff;
   --color-subtitles: #d2bcb0;
   --color-primary: #55423d;
@@ -28,9 +28,10 @@
 @media (prefers-color-scheme: light) {
   :root {
     color: #111;
-    background-color: #ffffff;
-      --color-bg: #fff;
+    background-color: #cbbbb9;
+      --color-bg: #cbbbb9;
       --color-titles: #111;
+      --color-secondary: #cbbbb9;
   }
 
 }
